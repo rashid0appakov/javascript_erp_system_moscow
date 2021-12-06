@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "adonis-vue-websocket@2.0.2",
+      "/var/www/erp-vier"
+    ]
+  ],
+  "_development": true,
+  "_from": "adonis-vue-websocket@2.0.2",
+  "_id": "adonis-vue-websocket@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-W7VHk+mqCMpOmcfJIzzvOCpeUOIK0Fkuq7YyI+iBmWD3//HVOhZoQRjFM51HWlfofmz1PCYj9lzdVtwyFAjZ4g==",
+  "_location": "/adonis-vue-websocket",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "adonis-vue-websocket@2.0.2",
+    "name": "adonis-vue-websocket",
+    "escapedName": "adonis-vue-websocket",
+    "rawSpec": "2.0.2",
+    "saveSpec": null,
+    "fetchSpec": "2.0.2"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/adonis-vue-websocket/-/adonis-vue-websocket-2.0.2.tgz",
+  "_spec": "2.0.2",
+  "_where": "/var/www/erp-vier",
+  "author": {
+    "name": "Evgeniy Ryumin cmp08@ya.ru"
+  },
+  "bugs": {
+    "url": "https://github.com/reg2005/adonis-vue-websocket/issues"
+  },
+  "dependencies": {
+    "vue": "^2.*"
+  },
+  "description": "Simple client for communicate VueJS and AdonisJS throught websocket",
+  "homepage": "https://github.com/reg2005/adonis-vue-websocket#readme",
+  "keywords": [
+    "VueJS",
+    "AdonisJS",
+    "Websocket",
+    "WS"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "adonis-vue-websocket",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reg2005/adonis-vue-websocket.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "2.0.2"
+}

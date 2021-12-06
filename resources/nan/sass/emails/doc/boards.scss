@@ -1,0 +1,19 @@
+.drop-list{
+	min-height: 50px;
+}
+.kanban{
+	overflow: auto;
+	height: calc(100vh - 150px);
+	max-height: 650px;
+}
+.kanban table{
+	border: none
+}
+.kanban table td{
+	padding: 0 10px;
+	border: none;
+	vertical-align: top;
+}
+.v-toolbar__title{
+	font-size: inherit!important;
+}

@@ -1,0 +1,71 @@
+{
+  "_from": "adonis-cache@^0.3.4",
+  "_id": "adonis-cache@0.3.4",
+  "_inBundle": false,
+  "_integrity": "sha512-HAaEJn+vwYuvFsEv0QBjI7wTH/+B2hamInWSaIEnkS/LmEuSx0WAYqRVIv05RJZZ3BEZm+uldIfxSThXQHp6fA==",
+  "_location": "/adonis-cache",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "adonis-cache@^0.3.4",
+    "name": "adonis-cache",
+    "escapedName": "adonis-cache",
+    "rawSpec": "^0.3.4",
+    "saveSpec": null,
+    "fetchSpec": "^0.3.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/adonis-cache/-/adonis-cache-0.3.4.tgz",
+  "_shasum": "101b4c2e379a3100b7ab2bd48e021a7e128d1579",
+  "_spec": "adonis-cache@^0.3.4",
+  "_where": "/var/www/erp-vier",
+  "author": {
+    "name": "Hany El Nokaly"
+  },
+  "bugs": {
+    "url": "https://github.com/helnokaly/adonis-cache/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "deprecated": false,
+  "description": "Cache provider for AdonisJs framework",
+  "devDependencies": {
+    "@adonisjs/ace": "^4.0.5",
+    "@adonisjs/fold": "^4.0.2",
+    "chai": "^4.1.2",
+    "ioredis": "^3.2.2",
+    "knex": "^0.16.3",
+    "mocha": "^4.0.1",
+    "sqlite3": "^4.0.6",
+    "standard": "^10.0.3"
+  },
+  "homepage": "https://github.com/helnokaly/adonis-cache",
+  "keywords": [
+    "adonisjs",
+    "adonis",
+    "cache",
+    "caching"
+  ],
+  "license": "MIT",
+  "name": "adonis-cache",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helnokaly/adonis-cache.git"
+  },
+  "scripts": {
+    "lint": "standard src/**/*.js test/*.js providers/*.js",
+    "test": "node node_modules/.bin/mocha"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  },
+  "version": "0.3.4"
+}
